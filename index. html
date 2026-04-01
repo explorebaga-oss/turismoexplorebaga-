@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TurismoExploreBaga</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🚗 TurismoExploreBaga</h1>
+
+<div>
+  <button onclick="addPart()">Add Part</button>
+  <button onclick="openGift()">Open Gift</button>
+  <button onclick="startRace()">Start Race</button>
+</div>
+
+<p>Speed: <span id="speed">0</span></p>
+<p>Stability: <span id="stability">0</span></p>
+<p>XP: <span id="xp">0</span></p>
+
+<canvas id="game" width="600" height="300"></canvas>
+
+<script src="script.js"></script>
+
+</body>
+</html>
